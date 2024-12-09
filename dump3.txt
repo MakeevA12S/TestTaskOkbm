@@ -1,0 +1,14 @@
+Dhcp Server \\192.168.127.1 Scope 192.168.1.1 Add reservedip 192.168.1.2 982458629678 "P1.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.1.1 Add reservedip 192.168.1.7 235876584798 "P2.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.1.1 Add reservedip 192.168.1.8 3c4000000000 "P3.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.1.1 Add reservedip 192.168.1.9 f00000000068 "P30.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.1.1 Add reservedip 192.168.1.210 9c000000000b "P67.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.2.1 Add reservedip 192.168.2.11 3c4000000007 "P4.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.2.1 Add reservedip 192.168.2.12 3c0000000009 "P9.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.2.1 Add reservedip 192.168.2.13 f40000000005 "P48.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.2.1 Add reservedip 192.168.2.215 500000000003 "P33.test" "" "BOTH"
+Dhcp Server \\192.168.127.1 Scope 192.168.3.1 Add reservedip 192.168.3.16 700000000079 "P34.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.3.1 Add reservedip 192.168.3.217 800000001f9e "P304.test" "" "DHCP"
+Dhcp Server \\192.168.127.1 Scope 192.168.1.0 Add iprange 192.168.1.1 192.168.1.188
+Dhcp Server \\192.168.127.1 Scope 192.168.2.0 Add iprange 192.168.2.1 192.168.2.188
+Dhcp Server \\192.168.127.1 Scope 192.168.3.0 Add iprange 192.168.3.1 192.168.3.188
