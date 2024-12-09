@@ -1,0 +1,86 @@
+{
+  "Dhcp4": {
+    "subnet4": [
+      {
+        "pools": [
+          {
+            "pool": {
+              "start": "192.168.1.1",
+              "end": "192.168.1.188"
+            }
+          }
+        ],
+        "reservations": [
+          {
+            "hw-address": "00:E4:BF:18:FE:2E",
+            "ip-address": "192.168.1.2"
+          },
+          {
+            "hw-address": "00:36:EB:57:0D:5E",
+            "ip-address": "192.168.1.7"
+          },
+          {
+            "hw-address": null,
+            "ip-address": "192.168.1.8"
+          },
+          {
+            "hw-address": null,
+            "ip-address": "192.168.1.9"
+          },
+          {
+            "hw-address": null,
+            "ip-address": "192.168.1.210"
+          }
+        ]
+      },
+      {
+        "pools": [
+          {
+            "pool": {
+              "start": "192.168.2.1",
+              "end": "192.168.2.188"
+            }
+          }
+        ],
+        "reservations": [
+          {
+            "hw-address": null,
+            "ip-address": "192.168.2.11"
+          },
+          {
+            "hw-address": null,
+            "ip-address": "192.168.2.12"
+          },
+          {
+            "hw-address": null,
+            "ip-address": "192.168.2.13"
+          },
+          {
+            "hw-address": "00:74:6A:52:88:03",
+            "ip-address": "192.168.2.215"
+          }
+        ]
+      },
+      {
+        "pools": [
+          {
+            "pool": {
+              "start": "192.168.3.1",
+              "end": "192.168.3."
+            }
+          }
+        ],
+        "reservations": [
+          {
+            "hw-address": "00:A2:FB:40:58:4F",
+            "ip-address": "192.168.3.16"
+          },
+          {
+            "hw-address": null,
+            "ip-address": "192.168.3.217"
+          }
+        ]
+      }
+    ]
+  }
+}
