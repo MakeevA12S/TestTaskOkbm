@@ -1,11 +1,12 @@
 import json
 import os
-def convert_mac(mac_int_str):
+def convert_mac(mac_str):
     try:
-        mac_int = int(mac_int_str)
-        mac_hex = hex(mac_int)[2:].zfill(12).upper()
-        return ':'.join(mac_hex[i:i+2] for i in range(0, 12, 2))
-    except ValueError:
+        mac_hex = mac_str.replace(":", "").replace(" ", "")
+        if len(mac_hex) != 12: 
+          return None
+        return ":".join(mac_hex[i:i+2] for i in range(0, 12, 2))
+    except (ValueError, AttributeError):
         return None
 def parse_dhcp_dump(filepath):
     kea_config = {"Dhcp4": {"subnet4": []}}
@@ -32,7 +33,7 @@ def parse_dhcp_dump(filepath):
     for k in subnets:
         reservsPart = []
         key = k
-        key = key[0:-1] + "1"
+        key = key[:-1] + "1"
         if key in reserves:
           llll = reserves[key]
           for r in llll:
